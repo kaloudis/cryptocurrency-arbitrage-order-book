@@ -2,6 +2,16 @@
 
 This app pulls ETH, XMR, ZEC, and LTC order books from Bittrex, Poloniex, and Binance, combines the order data and points out any arbitrage opportunities.
 
+## Run
+```
+npm install
+npm start
+
+cd client
+npm install
+npm start
+```
+
 ## TODO
 - Account for any additional exchange-related fees
 - Unit Tests
@@ -11,3 +21,4 @@ This app pulls ETH, XMR, ZEC, and LTC order books from Bittrex, Poloniex, and Bi
 - Add more currencies
 - Allow for base-pairs other than BTC
 - Quicker finds with websockets
+- Better error handling
