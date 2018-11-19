@@ -1,0 +1,20 @@
+{
+  "name": "cryptocurrency-arbitrage-order-book",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "client": "cd client && npm start",
+    "heroku-postbuild": "cd client/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  },
+  "engines": {
+    "node": "9.10.1",
+    "npm": "6.x"
+  }
+}
